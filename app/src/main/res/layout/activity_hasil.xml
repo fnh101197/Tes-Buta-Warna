@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Hasil">
+
+    <TextView
+        android:id="@+id/nilai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnCobaLagi"
+        android:layout_centerHorizontal="true"
+        android:text="@string/textview"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="237dp" />
+
+    <Button
+        android:id="@+id/btnCobaLagi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="234dp"
+        android:text="@string/coba_lagi"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="358dp" />
+
+    <Button
+        android:id="@+id/btnSelesai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="178dp"
+        android:text="@string/selesai" />
+</RelativeLayout>
